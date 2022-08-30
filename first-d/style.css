@@ -1,0 +1,466 @@
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url('http://fonts.cdnfonts.com/css/bebas-neue');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-color: #A7D1EF;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    margin: 0px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: left;
+
+
+}
+
+.flex-item-left {
+    padding-left: 70px;
+    flex: 50%;
+    margin: 0px;
+
+
+}
+
+h1 {
+    color: #353B7D;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 110px;
+    margin-top: 125px;
+
+
+}
+
+h3 {
+    color: white;
+    font-size: 72px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    line-height: 72px;
+
+
+}
+
+.spin {
+    position: absolute;
+    margin-top: -13PX;
+}
+
+p {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.flex-sub {
+    margin-top: 20px;
+}
+
+.flex-link {
+    padding-top: 22px;
+}
+
+.flex-item-right {
+
+
+    flex: 60%;
+}
+
+#br1::before {
+    content: "\a";
+    white-space: pre;
+}
+
+#br2::before {
+    content: "\a";
+    white-space: pre;
+}
+
+#br3::before {
+    content: "\a";
+    white-space: pre;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 320px) {
+    body {
+        background-image: url('image/320.png');
+    }
+
+    .flex-container {
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 54px;
+        margin: 0px;
+    }
+
+    .flex-item-left {
+        flex: 50%;
+        padding: 0px;
+    }
+
+    .flex-item-right {
+        display: none;
+    }
+
+    .flex-sub {
+        margin-top: 10px;
+    }
+
+    .flex-link {
+        padding-top: 0px;
+    }
+
+    h3 {
+        font-size: 32px;
+        margin: 0px;
+        line-height: 98%;
+    }
+
+    p {
+        margin-top: 0px;
+    }
+
+    .spin {
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width:340px) and (max-width: 375px) {
+    body {
+        background-image: url('image/375.png');
+
+    }
+
+    .flex-container {
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 54px;
+        margin-top: 10px;
+    }
+
+    h3 {
+        font-size: 32px;
+        margin: 0px;
+        line-height: 34px;
+    }
+
+    p {
+        margin-top: 0px;
+    }
+
+    .flex-item-right {
+        display: none;
+    }
+
+    .flex-item-left {
+        padding: 0px;
+    }
+
+    #br1::before {
+        content: "\a";
+        white-space: revert;
+    }
+
+    #br3::before {
+        content: "\a";
+        white-space: revert;
+    }
+
+    .spin {
+        height: 20px;
+        width: 22px;
+        margin-top: 4px;
+    }
+
+    .flex-link {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width:390px) and (max-width: 425px) {
+    body {
+        background-image: url('image/425.png');
+        margin-top: -16px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 54px;
+        margin-top: 18px;
+    }
+
+    h3 {
+        font-size: 32px;
+        margin: 0px;
+        line-height: 32px;
+    }
+
+    p {
+        margin-top: 0px;
+    }
+
+    .flex-item-right {
+        display: none;
+    }
+
+    .flex-item-left {
+        padding: 0px;
+    }
+
+    #br1::before {
+        content: "\a";
+        white-space: revert;
+    }
+
+    #br3::before {
+        content: "\a";
+        white-space: revert;
+    }
+
+    .flex-sub {
+        margin-top: 8px;
+    }
+
+    .spin {
+        height: 20px;
+        width: 22px;
+        margin-top: 4px;
+    }
+
+    .flex-link {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width:440px) and (max-width: 768px) {
+    body {
+        background-image: url('image/768.png');
+    }
+
+    .flex-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .flex-item-left {
+        padding-left: 30px;
+        flex: 50%;
+    }
+
+    .flex-item-right {
+        display: none;
+    }
+
+    h1 {
+        font-size: 90px;
+        line-height: 68px;
+        margin-bottom: 0px;
+        margin-top: 144px;
+    }
+
+    h3 {
+        font-size: 56px;
+        line-height: 52px;
+        margin-bottom: 30px;
+    }
+
+    .flex-link {
+        padding: 0px;
+    }
+
+    p {
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #br1::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #br2::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #br3::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .flex-link::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .flex-sub {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+    .spin {
+        height: 20px;
+        width: 22px;
+        margin-top: 4px;
+    }
+
+}
+
+@media only screen and (min-width:800px) and (max-width: 1024px) {
+    body {
+        background-image: url('image/1024.png');
+
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .flex-item-left {
+        padding-left: 70px;
+        flex: 50%;
+        margin: 0px;
+    }
+
+    .flex-item-right {
+        display: none;
+    }
+
+    h1 {
+        color: #353B7D;
+        font-weight: 700;
+        margin-bottom: 0px;
+        font-size: 88px;
+        margin-top: 77px;
+    }
+    h3 {
+        color: white;
+        font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        line-height: 64px;
+    }
+    .spin {
+        position: absolute;
+        margin-top: -13PX;
+    }
+
+    p {
+        color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .flex-sub {
+        margin-top: 20px;
+    }
+
+    .flex-link {
+        padding-top: 22px;
+    }
+
+    .flex-item-right {
+
+
+        flex: 60%;
+    }
+
+    #br1::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #br2::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #br3::before {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+@media only screen and (min-width:1500px) and (max-width: 2560px) {
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .flex-item-left {
+        padding-left: 135px;
+        flex: 50%;
+        margin: 0px;
+
+    }
+
+    .flex-item-right {
+        display: block;
+    }
+
+    h1 {
+        color: #353B7D;
+        font-weight: 700;
+        margin-bottom: 0px;
+        font-size: 200px;
+        margin-top: 250px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 112px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        line-height: 98px;
+    }
+    .flex-sub {
+        font-size: 40px;
+    }
+    .flex-link {
+        font-size: 40px;
+    }
+
+    .spin {
+        height: 60px;
+        width: 60px;
+        margin-top: 0px;
+    }
+}
