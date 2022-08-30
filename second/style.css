@@ -1,0 +1,301 @@
+@import url('http://fonts.cdnfonts.com/css/playfair-display');
+
+.nav-item li {
+    display: inline;
+    font-size: 24px;
+}
+.logo{
+    margin-top: 32px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+}
+footer{
+    background-color: #EED1C7;
+}
+.footer-index{
+    padding: 20px 0px 20px;
+}
+
+li {
+    padding: 20px;
+}
+/* Family Law start */
+.family-law {
+    background-color: #EED1C7;
+}
+.family-header{
+    color: #D4410E;
+    font-size: 64px;
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 5px solid rgba(40, 40, 40, 0.05); 
+   line-height: 10px;
+   margin: 10px 0 40px; 
+   padding-top: 80px;
+
+}
+.family-header span { 
+   background: #EED1C7;
+    padding:0 10px; 
+}
+.family-contant{
+    width: 79%;
+}
+.family-image{
+    margin: 24px 0px 32px;
+}
+/* Family Law End */
+/* Family firm End */
+.family-firm{
+    background-color:#EED1C7;
+}
+.family-firms{
+    border-bottom: 5px solid rgba(40, 40, 40, 0.05); 
+    line-height: 0.1em;
+    margin: 10px 0 40px; 
+    padding-top: 42px;
+}
+.family-firms span{
+    background: #EED1C7;
+    padding:0 10px; 
+}
+.family-firms-text{
+    font-size: 16px;
+line-height: 28px;
+width: 60%;
+text-align: center;
+}
+/* Family firm End */
+.card {
+    color: rgb(3, 3, 3);
+    float: left;
+    width: calc(28% - 20px);
+    padding: 45px;
+    border-radius: 10px;
+    
+    height: 325px;
+ }
+ .card p {
+    font-size: 18px;
+ }
+ .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+
+    padding: 10px;
+    flex: 35%;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: left;
+    padding-left: 72px;
+}
+
+.flex-item-right {
+
+    padding: 10px;
+    flex: 64%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+
+@media  screen and (max-width: 320px) {
+    .card {
+       width: 100%;
+       padding: 0px;
+       height: auto;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .family-image{
+        height: 300px;
+        width: 290px;
+    }
+    .family-firms{
+        line-height: 32px;
+     }
+     .flex-item-left{
+            text-align: center; 
+    padding-left: 0px;
+}
+     
+    html{
+        width: 100%;
+    }
+    .family-header{
+       line-height: 69px;
+       
+    }
+    
+ }
+ @media only screen and (min-width:350px) and (max-width: 375px) {
+    .card {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+     }
+     .flex-container{
+         flex-direction: column;
+     }
+     .family-image{
+         height: 300px;
+         width: 290px;
+     }
+     .family-firms{
+        line-height: 32px;
+     }
+     html{
+         width: 100%;
+     }
+     .family-header{
+        line-height: 69px;
+        
+     }
+     .flex-item-left {
+       
+       padding-left: 0px;
+        text-align: center;
+        
+    }
+ }
+ @media only screen and (min-width:380px) and (max-width: 425px) {
+    .card {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+     }
+     .flex-container{
+         flex-direction: column;
+     }
+     .family-image{
+         height: 300px;
+         width: 380px;
+     }
+     .family-firms{
+        line-height: 32px;
+     }
+     html{
+         width: 100%;
+     }
+     .family-header{
+        line-height: 69px;
+        
+     }
+     .flex-item-left {
+       
+       padding-left: 0px;
+        text-align: center;
+        
+    }
+ }
+ @media only screen and (min-width:430px) and (max-width: 768px) {
+    .card {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+     }
+     .family-image{
+         height: 300px;
+         width: 480px;
+     }
+     .family-firms{
+        line-height: 32px;
+     }
+     html{
+         width: 100%;
+     }
+     .family-header{
+        line-height: 20px;
+        
+     }
+     .flex-item-left {
+       
+       padding-left: 0px;
+        text-align: center;
+        
+    }
+    .card p {
+        font-size: 20px;
+    }
+ }
+ @media only screen and (min-width:780px) and (max-width: 1024px) {
+    .card {
+        width: 48%;
+        padding: 10px;
+        height: auto;
+     }
+     .family-image{
+        height: 350px;
+        width: 952px;
+    }
+     
+     .family-firms{
+        line-height: 32px;
+     }
+     html{
+         width: 100%;
+     }
+     .family-header{
+        line-height: 20px;
+        
+     }
+     .flex-item-left {
+       
+       padding-left: 0px;
+        text-align: center;
+        
+    }
+    .card p {
+        font-size: 20px;
+    }
+ }
+ @media only screen and (min-width:1500px) and (max-width: 2560px) {
+    .card {
+        width: 48%;
+        padding: 10px;
+        height: auto;
+     }
+     .family-image{
+        height: 670px;
+        width: 100%;
+    }
+     
+     .family-firms{
+        line-height: 32px;
+     }
+     html{
+         width: 100%;
+     }
+     .family-header{
+        line-height: 20px;
+        
+     }
+     .flex-item-left {
+       
+       padding-left: 0px;
+        text-align: center;
+        
+    }
+    .card p {
+        font-size: 20px;
+    }
+ }
